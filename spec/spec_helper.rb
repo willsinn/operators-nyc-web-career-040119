@@ -4,4 +4,6 @@ require_relative './operations_spec.rb'
 
 RSpec.configure do |config|
   config.run
+   config.order = 'default'
+
 end
